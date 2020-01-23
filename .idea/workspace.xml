@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eca04835-f987-4bf4-bf2d-0516a77f4f19" name="Default Changelist" comment="" />
+    <list default="true" id="eca04835-f987-4bf4-bf2d-0516a77f4f19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resultList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resultList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/searchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +21,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VBMGK5b1m88v35OqWHjjC4LikL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,7 +65,17 @@
       <updated>1576721937698</updated>
       <workItem from="1576721941411" duration="21622000" />
       <workItem from="1576811414894" duration="2844000" />
-      <workItem from="1576820264962" duration="7870000" />
+      <workItem from="1576820264962" duration="8474000" />
+      <workItem from="1579478871004" duration="1792000" />
+      <workItem from="1579480681588" duration="1796000" />
+      <workItem from="1579482495413" duration="1797000" />
+      <workItem from="1579484310837" duration="1795000" />
+      <workItem from="1579486157702" duration="1795000" />
+      <workItem from="1579487967616" duration="1891000" />
+      <workItem from="1579490094161" duration="1796000" />
+      <workItem from="1579491904503" duration="1930000" />
+      <workItem from="1579493852570" duration="1396000" />
+      <workItem from="1579495664471" duration="1118000" />
     </task>
     <servers />
   </component>
@@ -67,12 +91,12 @@
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="3329" y="355" width="1022" height="737" key="SettingsEditor/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1576723405251" />
-    <state x="969" y="560" key="com.intellij.ide.util.TipDialog" timestamp="1576820265349">
+    <state x="969" y="560" key="com.intellij.ide.util.TipDialog" timestamp="1579495667793">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="3486" y="543" key="com.intellij.ide.util.TipDialog/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1576811416954" />
     <state x="969" y="560" key="com.intellij.ide.util.TipDialog/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1576721943980" />
-    <state x="969" y="560" key="com.intellij.ide.util.TipDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1576820265349" />
+    <state x="969" y="560" key="com.intellij.ide.util.TipDialog/67.27.2493.1413@67.27.2493.1413" timestamp="1579495667793" />
     <state x="3503" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1576723365538">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>

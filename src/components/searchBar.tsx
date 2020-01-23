@@ -1,6 +1,7 @@
 import * as React from "react";
 import {StoreContainer} from '../store';
-import {Button, Input, Menu} from "semantic-ui-react";
+import {Button, Input, Menu, Segment} from "semantic-ui-react";
+import Select from "react-select";
 
 interface Props {}
 
@@ -8,19 +9,21 @@ const SearchBar: React.FC<Props> = () => {
     const store = StoreContainer.useContainer()
     return (
         <div>
-            <Menu>
-                <Menu.Menu>
-                    <Menu.Item>
-                        <Input icon="search" placeholder="Search name" value={store.searchKey} onChange={store.handleSearchKey}/>
-                        <Button type="submit" onClick={store.handleSearchName}>Search</Button>
-                    </Menu.Item>
-                    <Menu.Item>
-                        <Input icon="search" placeholder="Search category" value="" />
-                        <Button type="submit" >Search</Button>
-                    </Menu.Item>
-+
-                </Menu.Menu>
-            </Menu>
+            <h2 className="center">Lunch Recipe</h2>
+            <Segment.Group horizontal>
+                <Segment>
+                    <Input icon="search" placeholder="Search recipe" value={store.searchKey} onChange={store.handleSearchKey}/>
+                    <Button type="submit" onClick={store.handleSearchName}>Search</Button>
+                </Segment>
+                <Segment>
+                    <Select
+                        value={store.selectedCategory}
+                        options={store.Categories}
+                        placeholder="Select category"
+                        onChange={store.handleSearchCategory}
+                    />
+                </Segment>
+            </Segment.Group> 
         </div>
     )
 }
